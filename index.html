@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--================= FONT STYLE ================-->
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!--================= STYLE CSS ================-->
+    
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Branch Engineering Roles</title>
+</head>
+
+
+<body>
+
+    <section class="dept-parent container">
+
+        <div class="title-img wrapper">
+            <img class="eng-img" src="./Assets/Role-img.png" alt=""><h3 class="img-h3">Open roles by team</h3></img>
+        </div>
+       
+
+        <div class="grid grid-cont">
+            
+            <div class="col">
+                <h4>Engineering</h4>
+                <img class="arrow" src="./Assets/chevron-right-solid.svg" alt="">
+            </div>
+
+            <div class="col">
+                <h4>Product</h4>
+                <img class="arrow" src="./Assets/chevron-right-solid.svg" alt="">
+            </div>
+            
+            <div class="col">
+                <h4>Technical Service</h4>
+                <img class="arrow" src="./Assets/chevron-right-solid.svg" alt="">     
+            </div>
+
+            <div class="col">
+                <h4>Research & Development</h4>
+                <img class="arrow" src="./Assets/chevron-right-solid.svg" alt="">
+            </div>
+
+            <div class="col">
+                <h4>Finance</h4>
+                <img class="arrow" src="./Assets/chevron-right-solid.svg" alt="">
+            </div>
+
+            <div class="col">
+                <h4>Customer Success</h4>
+                <img class="arrow" src="./Assets/chevron-right-solid.svg" alt="">
+            </div>
+
+        </div>
+    </section>
+
+    <section class="map-cont">
+
+        
+        <div class="map-loc container">
+
+            <h3>Explore our locations</h3>
+            
+            <div class="loc-list">
+                <ul>
+                    <li><a href="">Palo Alto HQ ></a></li>
+                    <li><a href="">Seattle ></a></li>
+                    <li><a href="">Chicago ></a></li>
+                    <li><a href="">New York ></a></li>
+                    <li><a href="">London ></a></li>
+                    <li><a href="">Berlin ></a></li>
+                    <li><a href="">Mumbai ></a></li>
+                    <li><a href="">Bangalore ></a></li>
+                    <li><a href="">Singapore ></a></li>
+                    <li><a href="">Sydney ></a></li>
+                    <li><a href="">Beijing ></a></li>
+                    <li><a href="">Seoul ></a></li>  
+                </ul>
+    
+                <div class="map-img">
+                    <img src="./Assets/map.png" alt="">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="job-page container">
+        <form class="flex-parent">
+            
+            <h3>All open roles</h3>
+
+            <!-- Dropdown Menus -->
+
+            <label class="filter" id="fitler">Filter by:</label>
+            <div class="dropdown">
+
+                <select onchange="onChangeRegion(event)" name="Region" id="region" class="list"></select>
+
+                <select onchange="onChangeLocation(event)" name="location" id="location" class="list"></select>
+            </div>
+            
+
+            <!-- Job Listing -->
+            <div class="jobList" id="jobList">
+            
+            </div>
+
+        </form>
+    </section>
+
+    <script src="./script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
